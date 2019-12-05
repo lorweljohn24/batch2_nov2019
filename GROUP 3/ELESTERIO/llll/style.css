@@ -1,0 +1,40 @@
+body{
+	margin:0;
+	background-image: url("black.jpg");
+	font-family: 'Work sans', sans-serif;
+	font-weight:800;
+	
+}
+.container{
+	width:80%;
+	margin: 0 auto;
+}
+header{
+	background-color: #black;
+}
+header; after{
+	content:'';
+	display: table;
+	clear:both;
+}
+.logo{
+	float:left;
+	height:55px;
+	width:55px;
+}
+nav{
+	float:left;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav li{
+	display:inline-block;
+	margin-left:70px;
+	padding-top: 35px;
+	position: relative;
+}
+nav a:
+	

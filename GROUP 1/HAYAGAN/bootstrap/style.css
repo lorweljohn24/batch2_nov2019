@@ -1,0 +1,37 @@
+body{
+	background:#262626;
+	margin:0;
+	padding: 0;
+}
+nav {
+	width: 100%;
+	background:white;
+	overflow: auto;
+}
+ul {
+	padding:0;
+	margin:0 0 0 150px;
+	list-style:none;
+}
+li {
+	float:right;
+}
+.logo img{
+	position:Absolute;
+	margin-top:13px;
+	margin-left:100px;
+}
+nav a {
+	width:100px;
+	display:block;
+	padding:30px 15px;
+	text-decoration:none;
+	font-family:Arial;
+	color:black;
+	text-align:center;	
+}
+nav a:hover{
+	background:purple;
+	transition:0.5s;
+	text-transform:uppercase;
+}

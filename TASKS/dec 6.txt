@@ -1,0 +1,31 @@
+Task 1: String
+Write a php script that extracts the user name from the following email address
+
+john.smith@gmail.com
+sweet_six16@mcl.edu.ph
+yorme_isk0@yahoo.com.ph
+
+results:
+john.smith
+sweet_six16
+yorme_isk0
+
+
+Task 2: Functions
+Write a php script that works like a calculator - all operators (+,-,*,/) must have an appropriate function
+add()
+subtract()
+multiply()
+divide()
+
+
+Task 3: Associative array
+Write a php script that shows the list of ALL countries sorted ALPHABETICALLY with their corresponding capital.
+
+Afghanistan - Kabul
+Bahamas - Nassau
+Cambodia - Phnom Penh
+Denmark - Copenhagen
+
+--------------------------------
+Organize your folders per task given for today.

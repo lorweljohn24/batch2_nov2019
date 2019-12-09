@@ -2,10 +2,10 @@
 <head>
 <title> Calculator </title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css.css">
 </head>
-<body bgcolor="#C0C0C0">
-<div class="container">
+<body>
+<div>
 <center>
 <form action = "function.php" method = "POST" style="max-width: 450px; margin: auto;">
 <label> Select an operation: </label>

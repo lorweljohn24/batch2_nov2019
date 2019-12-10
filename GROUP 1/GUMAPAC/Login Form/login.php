@@ -12,6 +12,7 @@
 <form action = "function2.php" method = "POST" style="max-width: 450px; margin: auto;">
 	 Username: <input type="text" name ="UserName" required class="form-control"></br>
 	 Password: <input type="password" name ="PassWord" required class="form-control"></br>
+	 Captcha WOToD: <input type="text" name ="Captchas" required class="form-control"></br>
 <input type ="submit" value="Enter" class="btn btn-primary btn-block"/>
 </form>
 </div>

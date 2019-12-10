@@ -1,0 +1,23 @@
+.container{
+	width: 370px;
+	height: 310px;
+	background-color: rgba(255,255,255, 0.2);
+	margin: auto;
+	margin-top: 230px;
+	border-radius: 20px;
+	padding-top: 20px;
+}
+body{
+	background-image: url(image/123456.jpg);
+	background-size: cover;
+}
+label{
+	font-size: 38px;
+	margin-left: 129px;
+	font-family: Forte;
+	color: rgb(19,192,215);
+}
+input{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 24px;

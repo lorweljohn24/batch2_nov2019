@@ -1,0 +1,91 @@
+<?php
+$ceu = array
+( "Afghanistan"=>"Kabul",
+"Albania"=> "Tirana",
+"Algeria"=>"Algiers",
+"Andorra"=> "Andorra la Vella",
+"Angola"=>  "Luanda",
+"Armenia"=> "Yerevan",
+"Bangladesh"=> "Dhaka",
+"Barbados"=> "Bridgetown",
+"Belguim"=> "Brussels",
+"Cambodia"=> "Phnom Penh",
+"Colombia"=> "Bogota",
+"Comoros"=> "Moroni",
+"Denmark"=> "Copenhagen",
+" Dominican"=> "Republic Santo Domingo",
+" Egypt"=> "Cairo",
+" El Salvador"=> "San Salvador",
+" Equatorial"=> "Guinea Malabo",
+" Finland"=> "Helsinki",
+" France"=> "Paris",
+" Fiji"=> "Suva",
+" Gabon"=> "Libreville",
+" Germany " => "Berlin",
+"Ghana"=> "Accra",
+"Greece"=> "Athens",
+"Iceland"=> "Reykjavik",
+"Indonesia"=> "Jakarta",
+"Iran"=> "Tehran",
+"Ireland"=> "Dublin",
+"Israel"=>  "Jerusalem",
+"Italy"=> "Rome",
+"Jamaica"=> "Kingston",
+"Japan"=> "Tokyo",
+"Jordan"=> "Amman",
+"Kazakhstan"=> "Astana",
+"Kosovo"=> "Pristina",
+"Kuwait"=> "Kuwait City",
+"Laos"=> "Vientiane",
+"Latvia"=> "Riga",
+"Lebanon"=> "Beirut",
+"Lesotho"=> "Maseru",
+"Libya"=> "Tripoli",
+"Malaysia"=> "Kuala Lumpur",
+"Maldives"=> "Male",
+"Mali"=> "Bamako",
+"Mexico"=> "Mexico City",
+"New Zealand"=> "Wellington",
+"Nigeria"=> "Abuja",
+"North Korea"=> "Pyongyang",
+"Norway"=> "Oslo",
+"Oman"=> "Muscat",
+"Pakistan"=> "Islamabad",
+"Peru"=> "Lima",
+"Philippines"=> "Manila",
+"Poland"=> "Warsaw",
+"Portugal"=> "Lisbon",
+"Qatar"=> "Doha",
+"Romania"=> "Bucharest",
+"Russia"=> "Moscow",
+"Rwanda"=> "Kigali",
+"Singapore"=> "Singapore",
+"South Korea"=> "Seoul",
+"Spain"=> "Madrid",
+"Switzerland"=> "Bern",
+"Syria"=> "Damascus",
+"Togo"=> "Lome",
+"Thailand"=> "Bangkok",
+"Turkey"=> "Ankara",
+"Uganda"=> "Kampala",
+"United Kingdom"=> "London",
+"United States"=> "Wahington,D.C.",
+"Vietnam"=> "Hanoi",
+"Venezuela"=> "Caracas",
+"Yemen"=> "Sanaa",
+"Zambia"=> "Lusaka",
+"Zimbabwe"=> "Harare", );
+foreach($ceu as $x => $x_value) {
+echo "". $x. "-" . $x_value;
+echo "<br>";
+}
+?>
+
+
+
+
+
+
+
+
+

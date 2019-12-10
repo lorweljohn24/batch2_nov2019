@@ -1,30 +1,26 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 <meta charset="UTF-8">
-<title> CALCULATOR </title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+<title> SIMPLE CALCULATOR </title>
 </head>
 
 <body>
-<div>
-<center>
-<form>
-	<form style="max-width: 450px; margin: auto;">
-	<input type="text" name="num1" placeholder="Number 1">
+
+<form> <br> 
+	<input type="text" name="num1" placeholder="Number 1"> <br> </br>
 	<input type="text" name="num2" placeholder="Number 2">
 	<select name="operator">
-		<option> None </option>
+		<option> None </option> <br> </br>
 		<option> Add </option>
 		<option> Subtract </option>
 		<option> Multiply </option>
 		<option> Divide	</option>
 	</select>
-	<br>
+	<br> <br> </br>
 	<button type="submit" name="submit" value="submit" >Calculate</button>		
 </form>
-<p> The answer is: </p>
+<p> OUTPUT: </p>
 <?php
 	if (isset($_GET['submit'])){
 		$result1 = $_GET['num1'];
@@ -32,7 +28,7 @@
 		$operator = $_GET['operator'];
 		switch ($operator) { 
 			case "None": 
-				echo "You need to select method!" ;
+				echo "INVALID!" ;
 			break;
 			case "Add": 
 				echo $result1 + $result2 ;
@@ -51,10 +47,7 @@
 	}	
 ?>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</div>
+
 </body>
 
 </html>
-

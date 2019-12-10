@@ -3,11 +3,16 @@
 <title>HTML Tutorial</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
-<body>
+<style type="text/css">
+
+
+ 
 
 <div class="container">
 <br/>
 <h1 class="text-center">Log in to continue</h1>
+
+
 <form style="max-width: 450px; margin: auto;">
 <input class="form-control" type="text" placeholder="Username">
 <br/>

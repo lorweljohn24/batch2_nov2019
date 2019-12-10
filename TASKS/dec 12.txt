@@ -1,0 +1,9 @@
+Task 1: $_POST, $_SESSSION or $_GET
+Write a php scripts named: login, session and logout; each has specific function of his own. Login with $_POST, receive the data as $_SESSION. Log out when needed. When a user visits a login page, the user will be prompt to login when no user is signed in. Same with session, the user may only access session page when it is logged in. 
+
+Task 2: CAPTCHA
+Using the features in TASK 1, check if user logged in with captcha is correct. Use the features of php script.
+
+
+--------------------------------
+Organize your folders per task given for today.

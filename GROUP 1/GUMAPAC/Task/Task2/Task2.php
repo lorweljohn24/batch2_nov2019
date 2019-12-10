@@ -7,6 +7,7 @@
 <body>
 <div>
 <center>
+<h1>Calculator</h1>
 <form action = "function.php" method = "POST" style="max-width: 450px; margin: auto;">
 <label> Select an operation: </label>
 <select name = "dropdown" class="form-control">

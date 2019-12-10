@@ -8,7 +8,7 @@
 <div class="container">
 <br/>
 <h1 class="text-center">Log in to continue</h1>
-<form action = "session.php" method = "POST" style = "max-width: 450px; margin: auto;">
+<form action= "session.php" method= "POST" style= "max-width: 450px; margin: auto;">
 <input class="form-control" type="text" placeholder="Username">
 <br/>
 <input class="form-control" type="password" placeholder="Password">

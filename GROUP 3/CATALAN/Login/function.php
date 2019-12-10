@@ -9,8 +9,8 @@ if ( $username == "shaina" && $password == "9876"){
 	
 	echo  '<a> You have Successfully logged in</a>' . '<a href= "session.php">Continue</a>';
 }
-els
+else
 {
-	echo '<a> Log in Failed </a>'  . '<a href= "function.php">Try again</a>';
+	echo '<a> Log in Failed </a>' . '<a href= "function.php">Try again</a>';
 }
 ?>

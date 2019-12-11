@@ -1,0 +1,11 @@
+Task 3: $_GET, multi dimensional array
+Select any free pdf book online. Take the first 3 - 5 pages of the book. Write a php script that simulates several pages of the book. You will need to copy and paste text from a pdf book. Design your website beautifully. One PHP script will be enough for this task.
+
+
+Task 4: All 3 tasks
+Combine all 3 tasks together. Task 3 should be incorporated with your session.php file OR where you put your username and log out link.
+
+
+--------------------------------
+Organize your folders per task given for today.
+I will check your code on thursday night, 9PM.

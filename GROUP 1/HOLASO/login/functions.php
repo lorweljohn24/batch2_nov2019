@@ -1,11 +1,11 @@
 <?php
 
-echo <a href='loginform.php'>logout</a>;
+echo '<a href ="loginform.php"></a>';
 
       $username = $_POST['username'];
 	  $password = $_POST['password'];
 	    
-		if($username == "jen" && $password == "rose"]{
+		if($username == "jen" && $password == "rose"){
 			
 			echo "<a> You're now log in</a>" . '<a href = "session.php">continue</a>';
 		}

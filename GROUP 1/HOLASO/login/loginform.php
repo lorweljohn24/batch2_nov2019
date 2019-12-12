@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
-<title>Login Form</title>
+<title>HTML Tutorial</title>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></script>
 <link rel="stylesheet" href="style.css">
 
 <body>
+
+
 <div class = "container">
 <br/>
 <h1 class = "text-center">LOG IN TO CONTINUE</h1>
 <form action = "functions.php" method = "POST" style = "max-width: 450px; margin: auto;">
-	UserName <input type = "text" name = "username" placeholder = "Enter username" class = "form-control">
-	PassWord <input type = "password" name = "password" placeholder = "Enter password" class = "form-control">
+	Username <input type = "text" name = "username" placeholder = "Enter username" class = "form-control">
+	Password <input type = "password" name = "password" placeholder = "Enter password" class = "form-control">
 	<table  border="0" align="center">
 
     <tr>
 
-      <td width="215"> Validation code:</td>
+      <td width="200"> code:</td>
 
-      <td width="162">
+      <td width="160">
 
 <?php
 
@@ -56,7 +58,7 @@ if(isset($_POST['match']))
 
      {
 
-      echo  "<br/><font color='blue'>security code matched</font>";
+      echo  "<br/><font color='black'>security code matched</font>";
 
      }
 
@@ -86,7 +88,7 @@ if(isset($_POST['match']))
 
       <td colspan="2" align="center">
 
-	  <input name="match" type="submit"  value="Submit Security code"></td>
+	 
 
     </tr>
 
@@ -99,11 +101,11 @@ if(isset($_POST['match']))
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>
-
-
-
-
-
-
+<style>
+body {
+  background-image: url('sis.jpg');
+}
+</style>

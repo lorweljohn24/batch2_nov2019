@@ -1,40 +1,24 @@
 <!DOCTYPE html>
 <html>
-<title>WELCOME</title>
-<br> <br>	<br> <br> <br> <br>
-
-<h1 class="text-center">LOG IN TO CONTINUE</h1>
-
+<title>Login Form</title>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></script>
 <link rel="stylesheet" href="style.css">
 
 <body>
-<body background="pastel.gif">
-<br> <br> <br>  
-
 <div class = "container">
-
 <br/>
+<h1 class = "text-center">LOG IN TO CONTINUE</h1>
+<form action = "functions.php" method = "POST" style = "max-width: 450px; margin: auto;">
+	UserName <input type = "text" name = "username" placeholder = "Enter username" class = "form-control">
+	PassWord <input type = "password" name = "password" placeholder = "Enter password" class = "form-control">
+	<table  border="0" align="center">
 
-</div>
-<br> 
-<form action = "session.php" method = "POST" style = "max-width: 650px; margin: auto;">
-<form action = "session.php" method = "POST" style = "max-height: 2	50px; margin: auto;">
-<input class = "form-control" type="text" placeholder = "username">
-<br/>
-<input class = "form-control" type="password" placeholder = "password"> <br>
-<h2 class="text-center">CAPTCHA:</h2>
-<br/>
-<br>
-<table  border="0" align="center">
+    <tr>
 
-	
+      <td width="215"> Validation code:</td>
 
-  <br> <br>
-  
-     
-     
-      
+      <td width="162">
+
 <?php
 
 $arr= array_merge(range(0,9),range("A","Z"));
@@ -89,10 +73,10 @@ if(isset($_POST['match']))
 ?>
 
     <tr>
-<input class = "form-control" type="enter code" placeholder = "enter code">
-        
 
-       <!--<td> <input name="img" type="text">-->
+        <td>Enter the  above code here :</td>
+
+       <td> <input name="img" type="text">
 
         </td>
 
@@ -102,7 +86,7 @@ if(isset($_POST['match']))
 
       <td colspan="2" align="center">
 
-	  
+	  <input name="match" type="submit"  value="Submit Security code"></td>
 
     </tr>
 
@@ -110,13 +94,16 @@ if(isset($_POST['match']))
 
 <input type="hidden" value="<?php echo $captcha; ?>" name="hid"/>
 <br/>
-<form action = "session.php" method = "POST" style = "max-width: 450px; margin: auto;">
-
 <button type="submit" class="btn btn-primary btn-block">Log in</button>
 </form>
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
 </body>
 </html>
+
+
+
+
+
+

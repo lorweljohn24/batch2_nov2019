@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html>
 <title>WELCOME</title>
+<br> <br>	<br> <br> <br> <br>
+
+<h1 class="text-center">LOG IN TO CONTINUE</h1>
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"></script>
 <link rel="stylesheet" href="style.css">
 
 <body>
-<body background="pink.jpg">
+<body background="pastel.gif">
+<br> <br> <br>  
 
 <div class = "container">
+
 <br/>
-<h1 class = "text-center">LOG IN TO CONTINUE</h1>
-<form action = "session.php" method = "POST" style = "max-width: 450px; margin: auto;">
+
+</div>
+<br> 
+<form action = "session.php" method = "POST" style = "max-width: 650px; margin: auto;">
+<form action = "session.php" method = "POST" style = "max-height: 2	50px; margin: auto;">
 <input class = "form-control" type="text" placeholder = "username">
 <br/>
-<input class = "form-control" type="password" placeholder = "password">
+<input class = "form-control" type="password" placeholder = "password"> <br>
+<h2 class="text-center">CAPTCHA:</h2>
 <br/>
+<br>
 <table  border="0" align="center">
 
-    <tr>
+	
 
-      <td width="215"> Validation code:</td>
-
-      <td width="162">
-
+  <br> <br>
+  
+     
+     
+      
 <?php
 
 $arr= array_merge(range(0,9),range("A","Z"));
@@ -77,10 +89,10 @@ if(isset($_POST['match']))
 ?>
 
     <tr>
+<input class = "form-control" type="enter code" placeholder = "enter code">
+        
 
-        <td>Enter the code here :</td>
-
-       <td> <input name="img" type="text">
+       <!--<td> <input name="img" type="text">-->
 
         </td>
 

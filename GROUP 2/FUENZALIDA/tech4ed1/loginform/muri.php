@@ -6,28 +6,30 @@
 table{
 	
 	 margin-top: 50px;
-	 border: 10px solid;
-	 background-color: #BE7B3B;
+	 border: 1px solid;
 }
 
 td{
 	 border: 20px;
-     padding: 20px;
+     padding: 40px;
+	 
 
 }
 th{	 
-     border-bottom: 2px solid;
-	 background-color: #fff;
+     border-bottom: 1px solid;
+	 background-color: #eee;
 }
-
+body{
+	background: url(mimiyuhhhh.jpg) no-repeat;
+	background-size: cover;
+}
 </style>
 </head>
 <body>
-
  <form action="hello.php" method="post">
      <table align="center">
 	     <tr>
-	         <tr colspan="2"><h2 align="center">Login to Continue</h2>
+	         <tr colspan="5"><h2 align="center">Login to Continue</h2>
 		 </tr>
 		 <tr>
 		     <td>Username:</td>
@@ -42,6 +44,7 @@ th{
 	     </tr>
 	 </table>
 </form>
+
 <form>			 
 		 
 <table  border="0" align="center">

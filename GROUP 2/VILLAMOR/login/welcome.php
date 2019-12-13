@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+  <style type="text/css">
+body{
+	   background-image: url(111.jpg) ;
+	   background-size: ;
+	   background-position:;
+	   margin:;
+}
+  <style>
+div {
+  background-image: url('111.jpg');
+}
+</style>
 <?php
 
 $uname="admin";
@@ -22,5 +38,3 @@ else{
 	     
 	}
 }
-
-		

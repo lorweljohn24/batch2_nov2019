@@ -104,7 +104,8 @@
                   $_SESSION['username'] = 'admin';
                   
                }else {
-                  $msg = "wrong Password <a href='logout.php' >Please Try Again</a>";
+                $msg = "Wrong Password <a href='location:logout.php' >Please Try Again</a>";
+				 
                }
             }
          ?>
@@ -125,7 +126,7 @@
                name = "login">login</button>
          </form>
 			
-         <a href = "logout.php" tite = "Logout">
+         <a href = "location:function.php" title = "new">
          
       </div> 
       
@@ -138,6 +139,7 @@
       <td width="230"> Validation code:</td>
 
       <td width="162">
+	 
 
 <?php
 
@@ -180,9 +182,7 @@ if(isset($_POST['match']))
 
      }
 
-    else
-
-    {
+    else{
 
 	echo "<br/><font color='red'> try again</font>";
 
@@ -211,12 +211,8 @@ if(isset($_POST['match']))
     </tr>
 
   
-
 <input type="hidden" value="<?php echo $captcha; ?>" name="hidden"/>
 <br/>
-		 
-		 
-		 
 		 
 		 
 		 

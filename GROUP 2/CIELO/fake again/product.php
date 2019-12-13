@@ -1,5 +1,5 @@
 <?php 
-	session_start();
+	session_start(); 
 	
 	echo '<h1 class = "text-center">Welcome Enjoy Our Website!</h1>';
 

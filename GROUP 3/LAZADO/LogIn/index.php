@@ -5,15 +5,18 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <style type="text/css">
 body{
-	   background-color: lightgreen;
+	   background-image: url(1.JPG);
+	   background-size: cover;
+	   margin-top:120px;
+	   
    }
 #container{
 	    background-color: white;
-		padding:30px;
+		padding:50px;
 		text-align:center; 5px;
 		font-size:25px;
+	
   }
- 
   </style>
 </head>
 <body>
@@ -22,13 +25,47 @@ body{
 		   
 		    <div class="col-lg-3"> </div>
 			<div class="col-lg-6">
-	       <center><h1>Log in to continue</h1>
+			<br>
+	       <center><h1>LOG IN TO CONTINUE</h1>
 		   <form method="POST" action="function.php">
 		        Username <input type="text" name="username" placeholder="Enter username" class="form-control">
 				Password <input type="password" name="password" placeholder="Enter password" class="form-control">
 				<br><center>
 				<input type="submit" value="LOG IN" name="log in" class="btn btn-primary btn-block">
-		   </form>
-		   </div>
+<br>				
+<?php
+$arr= array_merge(range(0,9),range("A","Z"));
+
+//print_r($arr);
+
+for($i=1;$i<=5;$i++)
+
+{
+	$ch = $arr[array_rand($arr)];
+
+	@$captcha=$captcha.$ch;
+
+	@$fc=$fc.$ch.",";
+
+}
+
+//echo $fc."<br>";
+$nar = explode(",",$fc);
+
+for($i=0;$i<5;$i++)
+
+{
+
+echo $nar[$i];
+//echo "<img src='$nar[$i].GIF'/>";
+
+}
+?>
+<br>	
+<form method="POST" action="function.php">
+<center>
+<input type="text" name="captcha" placeholder="Enter captcha" class="form-control"><br>
+<input type="submit" value="submit" name="submit" class="btn btn-success btn-block">
+</div>
 </body>
 </html>

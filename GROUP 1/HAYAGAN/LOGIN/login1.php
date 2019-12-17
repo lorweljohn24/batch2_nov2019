@@ -6,10 +6,10 @@
 </head>
 <style>
 body{
-	background-image:url('a0.gif');
+	background-image:url('story.gif');
 	background-size:cover;
 	margin:0;
-	padding: 10px;
+	padding: 100px;
 }
 table{
 	margin-top: 150px;

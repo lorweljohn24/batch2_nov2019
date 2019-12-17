@@ -8,6 +8,7 @@ body{
 	margin:0;
 	padding: 10px;
 }
+</style></body></html>
 <?php
 	session_start();
 	session_destroy();
@@ -19,6 +20,7 @@ body{
 		
 		echo "<br><a href='login1.php'><input type=button name=LOGOUT value=LOGOUT></a></br>";
 		
+		echo "<br><a href='next.php'><input type=button name=next value=NEXT></a></br>";
 	}
 	else {
 		

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,29 +6,15 @@
 	 <center><h1>"The Cat At Light's End"</h1></center>
     <style type="text/css">
 body{
-	   background-image: url(333.jpeg);
+	   background-image: ;
 	   background-size: cover;
 	   background-position: center;
 	   margin:100px;
 }
   </style>
-  
-<?php
-    session_start();
-	
-	if(isset($_SESSION['uname'])){
-	
-	echo "<h2>Welcome to My Story</h2>";
-	
-	echo "<br><a href='welcome.php'><input type=button name=back value=back ></a>";
-	}
-	else{
-		echo"<script>location.href='login.php'</script>";
-		echo"<script>location.href='login.php'</script>";
-	}
-	
-	?>
-
+<?php 
+	session_start();
+	echo "The Cat At Light's End"
 Jayne knew exactly how she, Russ, their daughter Alyssa, and a cat ended up living out of a beater Econoline van, now parked at a Fred Meyer's One-Stop Shopping Center in Portland, Oregon. It was as obvious, as unavoidable, once things were in motion, as a good car wreck. Some six months ago, things got tough when Nehalem Lumber laid off Russ and all the other mill workers. 
 Nothing Russ or anybody did. The word was simply "No more logs to cut." 
 Jayne saw Russ and his buddies try as they may to keep each other up with jokes about tree huggers and owls. He put a bumper sticker on the Econoline: ARE YOU AN ENVIRONMENTALIST OR DO YOU WORK FOR A LIVING? Russ's buddies got a kick out of that one. 
@@ -141,9 +128,12 @@ The waiter studied Alyssa, the four orange marmalade packets she'd piled up on t
 "No charge?" Jayne had to be sure. 
 "No charge. What do you want, Miss: white or wheat?" 
 "White toast," Alyssa said and he went to get the toast and Jayne took a sip of her coffee, blonde with real half-and-half. Why was her squirmy daughter so behaved in public? Maybe thanks to this man who knew a small kid wants her own toast, even when the parents have to watch their money, even when the picky eater is likely to eat no more than half a slice of bread. 
-With a few people here, there like the waiter, Jayne saw the city could, like Vernonia, be home. Once they stopped living in the van. The van where they still had to feed Toby what little food he really needed. Worse came to worse, she could pick up pop cans and beer bottles for that money. Russ was mopping his egg with toast. She knew he'd come around and not be so choosy about what job he wanted--then he'd get a bounce his way. Jayne knew that as live truth. And, hot damn, the owl jokes were back.
-
-
-
+With a few people here, there like the waiter, Jayne saw the city could, like Vernonia, be home. Once they stopped living in the van. The van where they still had to feed Toby what little food he really needed. Worse came to worse, she could pick up pop cans and beer bottles for that money. Russ was mopping his egg with toast. She knew he'd come around and not be so choosy about what job he wanted--then he'd get a bounce his way. Jayne knew that as live truth. And, hot damn, the owl jokes were back. 
 
  
+
+ 
+?>
+
+<br></br>
+<a href = "sess.php">NEXT</a>
